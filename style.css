@@ -6,7 +6,7 @@
 }
 .circle{
     position: fixed;
-    background: radial-gradient(circle, rgb(0, 255, 242) 50%, rgba(0, 217, 255, 0) 70%);
+    background: radial-gradient(circle, rgba(0, 255, 242, 0.76) 50%, rgba(0, 217, 255, 0) 70%);
     top:12.5vh;
     left:-70vh;
     height: 75vh;
@@ -47,7 +47,7 @@
 .mood{
     text-align: center;
     padding: 6vh 2vh;
-    background: radial-gradient(circle, rgba(0, 135, 177, 0.883) 0%, rgba(0, 217, 255, 0) 60%);;
+    background: radial-gradient(circle, rgba(0, 217, 255, 0.507) 0%, rgba(0, 217, 255, 0) 60%);;
 }
 .mood:first-child, .mood:last-child{
     transform: translateX(-12vw);
